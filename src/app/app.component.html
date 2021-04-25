@@ -1,0 +1,11 @@
+<div class="container">
+  <div>
+    <textarea #inputText id="input" name="inputTextArea" rows="40" cols="50" placeholder="Enter Json to format"></textarea>
+  </div>
+  <div >
+    <button class="button" (click)="onJsonConvertClick(inputText.value)">Format</button>
+  </div>
+  <div>
+    <textarea #inputText [value]=prettyJson rows="40" cols="50" placeholder="Output"></textarea>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+.container{
+    align-content: center;
+    display: flex;
+    flex: 100%;
+}
+.button{
+    top: 50%;
+}
